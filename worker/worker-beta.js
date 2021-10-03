@@ -72,8 +72,8 @@ const uiConfig = {
     "nav_link_1": "Home", // change navigation link name
     "nav_link_3": "Current Path", // change navigation link name
     "nav_link_4": "Contact", // change navigation link name
-    "fixed_footer": false, // If you want the footer to be flexible or fixed.
-    "hide_footer": true, // hides the footer from site entirely.
+    "fixed_footer": true, // If you want the footer to be flexible or fixed.
+    "hide_footer": false, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
@@ -99,7 +99,7 @@ const uiConfig = {
     "downloaddomain": domain_for_dl, // Ignore this and set domains at top of this page after service accounts.
     "poster": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.24/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
     "audioposter": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.24/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/npm/@googledrive/index", // If Project is Forked, then enter your GitHub repo
+    "jsdelivr_cdn_src": "", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
